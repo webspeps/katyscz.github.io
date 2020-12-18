@@ -1,0 +1,474 @@
+html { margin: 0; padding: 0; min-height: 100%; position: relative; }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    margin: 0; padding: 0;
+    color: #242424;
+    
+    
+}
+.clear { clear: both;}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #242424;
+}
+a img {
+    border: none;
+}
+.content {
+    width: 1170px;
+    margin: 0 auto 0 auto;
+    
+}
+#header {
+    background: white;
+    margin: 10px 0 10px 0;
+    
+}
+#header ul {
+    float: left;
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#header ul li {
+    display: block;
+    float: left;
+    
+    font-weight: bold;
+    margin-right: 5px;
+    
+    width: 220px;
+}
+#header ul li:last-child {
+    
+    margin-right: 0px;
+}
+#header ul li#iconOK:before {
+    font-family: 'FontAwesome';
+    content: '\f087';    
+    display: block;
+    font-size: 200%;
+    font-weight: normal;
+    float: left;
+    padding: 5px 15px 0 0;
+    color: #2c6df0;
+}
+#header ul li#iconTruck:before {
+    font-family: 'FontAwesome';
+    content: '\f25b';    
+    display: block;
+    font-size: 200%;
+    font-weight: normal;
+    float: left;
+    padding: 5px 15px 0 0;
+    color: #2c6df0;
+}
+#header ul li#iconAr:before {
+    font-family: 'FontAwesome';
+    content: '\f234';    
+    display: block;
+    font-size: 200%;
+    font-weight: normal;
+    float: left;
+    padding: 5px 15px 0 0;
+    color: #2c6df0;
+}
+#header .content > strong {
+    float: right;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#header .content > strong:before {
+    font-family: 'FontAwesome';
+    content: '\f095';    
+    display: block;
+    font-size: 200%;
+    font-weight: normal;
+    float: left;
+    padding: 0px 15px 0 0;
+    margin-top: -3px;
+    color: #2c6df0;
+}
+#top {
+    background: #2c6df0;
+    width: 100%;
+}
+#logo {
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin: 30px 0 0 0;
+    width: 447px; height: 92px;
+}
+#top #thumbNav {
+    float: right;
+    display: block;
+    color: white;
+    font-size: 150%;
+    list-style: none;
+    text-align: right;
+    text-transform: uppercase;
+}
+#top #thumbNav > li:after {
+    font-family: 'FontAwesome';
+    content: '\f053';    
+    display: block;
+    
+    font-weight: normal;
+    float: left;
+    font-size: 90%;
+    margin-top: 5px;
+    margin-left: 25px;
+    
+    color: #ffffff;
+    float: right;
+}
+#menu {
+    clear: both;
+}
+#menu > #catNav {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+#menu > #catNav > li > a {
+    padding: 15px;
+    background: #2e2e2e;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 120%;
+    width: 260px;
+    height: 27px;
+}
+#menu > #catNav > li > a:after {
+    font-family: 'FontAwesome';
+    content: '\f0c9';    
+    display: block;
+    
+    font-weight: normal;
+    float: left;
+    font-size: 100%;
+    margin-top: 2px;
+    margin-left: 25px;
+    
+    color: #ffffff;
+    float: right;
+}
+#menu > #catNav li > ul {
+    display: none;
+}
+#menu > #mainMenu {
+    float: right;
+    background: #2e2e2e;
+    width: 850px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu > #mainMenu > li > a {
+    color: #ffffff;
+    float: left;
+    padding: 15px 20px 15px 20px;
+    
+    display: block;
+    height: 27px;
+    border-right: 1px solid black;
+}
+#menu > #mainMenu > li > a:hover, #menu > #mainMenu > li > a.selected {
+    background: black
+}
+body > .content > #slider {
+    margin-top: 25px;
+}
+body > .content > #slider > .thumbImg { 
+    display: block;
+    width: 370px;
+    height: 275px;
+    background: url("../images/thumb02.jpg");
+    margin-bottom: 30px;
+    float: right;
+}
+body > .content > #slider > .thumbImg a {
+    width: 340px;
+    margin-top: 219px;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 120%;
+    color: white;
+    padding: 15px;
+}
+body > .content > #slider > .thumbImg a:after {
+    font-family: 'FontAwesome';
+    content: '\f138';
+    float: right;
+    font-weight: normal;
+    font-size: 130%;
+    margin-top: -2px;
+}
+body > .content > #slider > .thumbImg:last-child {
+    background: url("../images/thumb01.jpg");
+    margin-bottom: 0;
+}
+body > .content > #slider > .box_skitter { 
+    display: block;
+    
+    float: left;
+    
+}
+body > .content > .shadow {
+    width: 100%;
+    margin: 30px 0 20px 0;
+    background: #ebebeb;
+}
+body > .content > .shadow > .left {
+    width: 320px;
+    float: left;
+    display: block;
+    padding: 15px 0 20px 20px;
+}
+
+body > .content > .shadow h1 {
+    margin: 0;
+    padding: 0;
+    color: #2c6df0;
+}
+body > .content > .shadow h2 {
+    padding: 0;
+    
+    margin: 0;
+    padding-bottom: 0;
+    
+}
+body > .content > .shadow p {
+    margin: 7px 0 0 0;
+    padding: 15px 20px 20px 0;
+    display: block;
+    width: 800px;
+    font-size: 120%;
+    float: right;
+    
+}
+
+.content > .homeServiceList {
+    display: block;
+    float: left;
+    width: 47%;
+}
+.content > .homeServiceList h2 { 
+    margin-top: 0;
+}
+.content > .homeMap { 
+    
+    float: right;
+}
+
+body > .content h1 {
+    border: 1px solid #ebebeb;
+    padding: 10px 0 10px 20px;
+    width: 100%;
+    font-weight: bold;
+}
+.content > .homeServiceList article {
+    margin-bottom: 30px;
+    display: block;    
+}
+.content > .homeServiceList  h2 {
+    width: 100%;
+}
+.content > .homeServiceList article h3 {
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+.content > .homeServiceList article p {
+    margin: 0;
+}
+.content > .homeServiceList article .circleNumber {
+    display: block;
+    width: 20px;
+    height: 42px;
+    float: left;
+    border-radius: 50%;
+    background: #2c6df0;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 8px 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.content > .homeServiceList article .right {
+    display: block;
+    float: right;
+    width: 85%;
+}
+footer {
+    background: #f0f0f0;
+
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    overflow:hidden;
+}
+footer .box {
+    display: block;
+    width: 19%;
+    float: left;
+    padding-right: 14px;
+    padding-bottom: 20px;
+}
+footer .box:last-child {
+    padding-right: 0;
+}
+.bottomMargin {
+    margin-bottom: 240px;
+}
+#subFooter {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: #e8e8e8;
+}
+footer .box ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+footer .box h3 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
+}
+footer .box p {
+    padding: 0;
+    margin: 0;
+}
+
+#contextMenu {
+    float: left;
+    display: block;
+    width: 290px;
+    margin-right: 30px;
+    background: #f0f0f0;
+}
+#contextMenu ul {
+    padding: 0;
+    margin: 0;    
+    list-style: none;
+}
+#contextMenu ul li a { 
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid #c1c1c1;
+    
+}
+#contextMenu ul li a.last {
+    border-bottom: none;
+}
+#contextMenu ul li a:hover, #contextMenu ul li a.selected {
+    color: #2c6df0;
+}
+#contextMenu ul li a:after {
+    font-family: 'FontAwesome';
+    content: '\f138';
+    float: right;
+    font-weight: normal;
+    font-size: 130%;
+    margin-top: -2px;
+}
+.content > aside {
+    float: left;
+    width: 827px;
+}
+
+h3 + .gallery .image {
+    margin-top: 0px;
+}
+
+
+.gallery  {
+    margin-bottom: 10px;
+}
+.gallery .image {
+    text-align: center;
+    padding: 10px 10px 7px 10px;
+    border:1px solid #c1c1c1;
+    float: left;
+    margin-right: 19px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.gallery .image:last-of-type {
+    margin-right: 0px;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+aside ul li {
+    clear: both;
+    display: block;
+}
+aside ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f101';
+    float: left;
+    color: #2c6df0;
+    font-weight: normal;
+    
+    margin-top: 3px;
+    padding-right: 10px;
+}
+aside h4 {
+    margin-bottom: 3px;
+}
+
+.noIE8
+{
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    padding: 20px;
+    font-size: 110%;
+}
+.noIE8 a
+{
+    color: red;
+}
+
+.textImage {
+    text-align: center;
+    margin: 20px;
+}
+
+.largeimgblock {
+    width: 50%;
+    display: block;
+    float: left;
+    
+}
+.largeimgblock p {
+    margin-bottom: 0;
+    padding-bottom: 0;    
+}
+.map {
+    width: 430px;display: block;float: right;
+}
+
+

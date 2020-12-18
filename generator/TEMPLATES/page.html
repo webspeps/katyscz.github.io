@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ language }}">
+	<head>
+    	<title>Zakázkové truhlářství Katys - {{ title }}</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="{{ keywords }}" />
+    	<meta name="description" content="{{ description }}">
+
+
+		<link rel="stylesheet" media="all" href="assets/css/style.css">
+
+		<meta name="google-site-verification" content="qzR4aB4FdHuZ0gJgB3scva19wlwvci_LBdrdaixlvQk" />
+
+		<link href='assets/css/openSans.css' rel='stylesheet' type='text/css'>
+		<link href='assets/fonts/font-awesome.css' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="/favicon.ico?" >
+
+		<!-- Skitter Styles -->
+		<link href="assets/css/skitter.styles.min.css" type="text/css" media="all" rel="stylesheet" />
+		<!-- Skitter JS -->
+		<script type="text/javascript" language="javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" language="javascript" src="assets/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" language="javascript" src="assets/js/jquery.skitter.min.js"></script>
+
+		<!-- Init Skitter -->
+		<script type="text/javascript" language="javascript">
+		  $(document).ready(function() {
+			$('.box_skitter_large').skitter({
+			  theme: 'clean',
+			  numbers_align: 'center',
+			  progressbar: true,
+			  dots: true,
+			  preview: true
+			});
+		  });
+		</script>
+
+		<!--  GALLERY  -->
+		<link href="assets/dist/css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" media="all" href="assets/css/1170.css">
+		<link rel="stylesheet" media="handheld, only screen and (max-device-width: 800px)" href="assets/css/800.css">
+	</head>
+	<body>
+		{% include 'tag_header.html' %}
+		<div class="content">
+			{# INCLUDE CONTENT HERE #}
+			{% if url!='index' %} {% include 'tag_context_menu.html' %} {% endif %}
+			{% include content_file %}
+		</div>
+
+		<div class="clear bottomMargin">&nbsp;</div>
+		{# INCLUDE FOOTER HERE #}
+		{% include 'tag_footer.html' %}
+		<div class="clear"></div>
+		<script src="assets/dist/js/lightbox.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+html { width: 100% }
+.content {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+#header, #thumbNav, #slider,  #thumbNav li, .content > .homeServiceList article .circleNumber, iframe, .bottomMargin {
+    display: none;
+}
+#menu > #mainMenu { 
+    clear: both;
+    float: none;
+    width: 100%;
+}
+#menu > #mainMenu > li > a {
+    padding: 10px;
+    
+    font-weight: bold;
+    float: none;
+    
+}
+#menu > #mainMenu > li > a {
+    float: none;
+}
+body > .content > .shadow p {
+    width: 100%;
+    padding: 0;
+    clear: both;
+    
+}
+body > .content > .shadow > .left {
+    width: 100%;
+    float: none;
+    padding: 0;
+}
+.content > .homeServiceList {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+}
+
+.content > aside {
+    clear: both;
+    width: 100%;
+}
+#logo {
+    background: none;
+    color: white;
+    height: auto;
+}
+#logo:after {
+    content: 'KATYS';
+    font-weight: bold;
+    font-size: 200%;
+}
+footer .box {
+    clear: both;
+    width: 100%;
+}
+body > .content h1 {
+    border: none;
+    color: #2c6df0;
+    padding: 0;
+}
+body > .content {
+    margin-bottom: 10px;
+}
+.content > .homeServiceList article .right {
+    float: none;
+}
+
+.gallery .image {
+    padding: 0;
+    float: none;
+    border: none;
+}
+img {
+    max-width: 90%;
+}
+#subFooter {
+    padding: 0;
+    
+}
+#catNav {
+    width: 100%;
+}
+footer {
+    position: relative
+}
+.map {
+    display: none;
+}

@@ -1,0 +1,4 @@
+venv/*
+front_end*/
+.idea/*
+old/*
