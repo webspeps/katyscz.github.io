@@ -10,7 +10,7 @@ PATH_TO_RESOURCES = Path('RESOURCES/')
 PATH_TO_OUTPUT = Path('../docs/')
 URL_ROOT = "https://katys.cz/"
 
-link_to_homepage = "index.html"  # TODO: always / in production
+link_to_homepage = "/"  # TODO: always / in production
 html_file_suffix = ".html"
 
 
